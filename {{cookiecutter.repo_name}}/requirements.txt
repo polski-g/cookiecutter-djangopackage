@@ -1,0 +1,5 @@
+{%- if cookiecutter.requirements != "Comma-separated requirements.txt list" -%}
+{%- for x in cookiecutter.requirements.split(',') %}
+{{x}}
+{%- endfor %}
+{%- endif %}

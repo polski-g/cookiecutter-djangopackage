@@ -1,0 +1,13 @@
+{
+  "full_name": "polski-g",
+  "email": "polski_g@sent.at",
+  "github_username": "polski-g",
+  "project_name": "Django Package",
+  "repo_name": "dj-package",
+  "app_name": "{{ cookiecutter.repo_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "project_short_description": "Your project description goes here",
+  "requirements": "Comma-separated requirements.txt list",
+  "django_versions": "1.11",
+  "version": "0.1.0",
+  "open_source_license": ["LGPL", "GPL", "AGPL"]
+}
